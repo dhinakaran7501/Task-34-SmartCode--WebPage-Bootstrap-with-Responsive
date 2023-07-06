@@ -1,0 +1,42 @@
+#team {
+    padding-top: $pt;
+
+    .card {
+        &:hover .card-body {
+            width: 100%;
+            transition: 0.5s;
+        }
+    }
+
+    .card-body {
+        background-color: $primarycolor;
+        height: 520px;
+        transition: 0.5s;
+        width: 75%;
+    }
+
+    ul.social {
+        margin: 0 0 250px;
+        padding: 0 20px 0 0;
+        list-style: none;
+        text-align: right;
+
+        li {
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        a {
+            font-size: 20px;
+            color: black;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+
+    .card-text {
+        font-weight: 500;
+    }
+}

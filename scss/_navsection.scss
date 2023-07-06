@@ -1,0 +1,31 @@
+.navbar-brand {
+    img {
+        max-width: 200px;
+    }
+}
+
+#main-menu {
+    background-color: $lightbgcolor;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 10px #ddd;
+}
+
+#main-menu {
+    li {
+        margin: 0 8px;
+    }
+
+    a {
+        font-weight: $font-md;
+        font-size: 15px;
+        color: $blackcolor;
+
+        &:hover {
+            color: $primarycolor;
+        }
+
+        &.active {
+            color: $primarycolor;
+        }
+    }
+}

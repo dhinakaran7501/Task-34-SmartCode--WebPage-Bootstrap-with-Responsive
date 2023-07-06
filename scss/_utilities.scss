@@ -1,0 +1,58 @@
+$font-sm: 300;
+$font-md: 500;
+$font-lg: 900;
+$primarycolor: #fa983a;
+$secondarycolor: #fad390;
+$blackcolor: #262626;
+$lightbgcolor: #f6f6f6;
+
+$pt: 120px;
+
+$mb: 15px;
+
+body {
+    font-weight: $font-sm;
+}
+
+p {
+    font-weight: $font-sm;
+    margin-bottom: $mb;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: $font-md;
+    margin-bottom: $mb;
+}
+
+.title {
+    font-size: 100px;
+    font-weight: $font-lg;
+}
+
+.btn-hero {
+    color: white;
+    background-color: $primarycolor;
+    padding: 16px 40px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    margin-top: 0.5rem;
+
+    &:hover {
+        background: #fad390;
+        color: #262626;
+    }
+}
+
+.title-md {
+    font-size: 60px;
+    font-weight: $font-lg;
+}
+
+.title-sm {
+    font-size: 35px;
+}

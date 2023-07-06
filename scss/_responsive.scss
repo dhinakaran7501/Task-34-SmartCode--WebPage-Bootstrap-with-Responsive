@@ -1,0 +1,95 @@
+@media only screen and (min-width: 200px) and (max-width: 800px) {
+    .title {
+        padding-top: 10px;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    #slider .content {
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+
+    .btn-hero {
+        padding: 4px 7px;
+        letter-spacing: 0;
+        margin-top: 0;
+    }
+
+    #about {
+        padding-top: 20px;
+    }
+
+    .title-md {
+        font-size: 34px;
+        text-align: center;
+        margin-bottom: 3px;
+    }
+
+    .title-sm {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #service {
+        padding-top: 20px;
+        padding-bottom: 0px !important;
+    }
+
+    #service .card {
+        margin-bottom: 20px;
+    }
+
+    #project,
+    #team {
+        padding-top: 20px;
+        padding-bottom: 0px !important;
+    }
+
+    #team .card-body {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    #team .social {
+        margin: 0 0 !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        padding: 0 !important;
+    }
+
+    #team img {
+        position: relative !important;
+        display: block;
+        width: 100% !important;
+    }
+
+    .team-name,
+    .team-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #newsletter .row {
+        display: flex;
+        align-items: center !important;
+        justify-content: center;
+    }
+
+    #newsletter .title-color {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #newsletter .text-end {
+        text-align: center !important;
+    }
+
+    #footer h3 {
+        text-align: center;
+    }
+}

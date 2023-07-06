@@ -1,0 +1,18 @@
+#newsletter {
+    background-color: $secondarycolor;
+
+    .title-color {
+        color: white;
+    }
+
+    .btn {
+        background: #fff;
+        color: #262626;
+        border-radius: 0;
+        padding: 15px 60px;
+
+        &:hover {
+            background-color: $primarycolor;
+        }
+    }
+}
